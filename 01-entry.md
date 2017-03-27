@@ -7,6 +7,8 @@ turned into an app!
 React is a Javascript programming language. Apps such as Instagram is made entirely out of React. 
 Furthermore, the mini games on Facebook messenger are also made from React.
 
+[Links for reference](http://blog.andrewray.me/reactjs-for-stupid-people/)
+
 ## What app should I make?
 Know that Facebook uses React to make their messenger games, I want to make an app similar to their simple,
 addictive sports game. So far, Facebook has a soccer and basketball game where the user taps the bouncing ball 
