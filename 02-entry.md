@@ -1,6 +1,17 @@
 # Entry 2: Learning on Codeacademy
 Before I can create an app, I need to learn React JS! I found out that Codecademy teaches React JS.
-## Notes on What I learned
+
+## Notes On What I Learned
 ### JSX Element
-* To create a JSX element, it's basically like html: ```<article></article>```
-* to save the element into a variable ```var myArticle = <article></article>```
+JSX is a preprocessor step that adds XML(stores data) syntax to JavaScript and it makes React more elegant.
+1. To create a JSX element, it's basically like html: ```<article></article>```
+2. To save the element into a variable ```var myArticle = <article></article>```
+3. To set an id, you can do it like html ```var myArticle = <article id="news"></article>```
+4. A JSX expression with multiple outer elements must be wrapped with a ```<div>```.
+```var paragraphs = (<div><p>I am a paragraph.</p></div>);```
+5. To render a JSX expression (make it appear onscreen) ```ReactDOM.render(variableName, document.getElementById('app'));```
+6. ReactDOM.render only updates DOM elements that have changed.
+7. 
+
+## Takeaways
+* 
