@@ -67,4 +67,5 @@ ReactDOM.render(
 ## Takeaways
 * To keep up with the time frame, I decide to catch up on my Codeacademy lessons and finish a unit every week.
 * I thought this unit is getting more useful as games consists of many conditionals. For the tennis game I am
-planning, 
+planning, a if/else condition I could use is if the user tocuhes the tennis ball, then continue, else, stop game
+and show score.
