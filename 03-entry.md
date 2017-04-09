@@ -56,6 +56,15 @@ var componentBlueprint = {
   }
 };
 ```
-4. 
+4. Creating an instance: ```<MyComponentClass />``` (You put this below your variables.)
+```
+ReactDOM.render(
+  <MyComponentClass />,
+  document.getElementById('app')
+);
+```
 
 ## Takeaways
+* To keep up with the time frame, I decide to catch up on my Codeacademy lessons and finish a unit every week.
+* I thought this unit is getting more useful as games consists of many conditionals. For the tennis game I am
+planning, 
