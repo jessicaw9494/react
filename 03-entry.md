@@ -7,7 +7,7 @@ on to the second part which is learning the React components!
 Advanced JSX is a bit simplier compared to JSX.
 1. self-closing tags (you do not need the slash to close) ```<div> blahblahblah <div>```
 2. Using curly brackets will make the element in an ```<h1></h1>``` will write the code:
-```
+```javascript
 ReactDOM.render(
   <h1>2 + 3</h1>,
   document.getElementById('app')
@@ -20,7 +20,7 @@ ReactDOM.render(
 argument.
 5. Event listener names in JSX are written in camelCase, such as onClick or onMouseOver.
 6. Using an if/else statement has it's own open and close brackets
-```
+```javascript
 if (coinToss() == 'heads') {
   var img = <img src={pics.kitty} />;
 } else {
@@ -33,7 +33,7 @@ if (coinToss() == 'heads') {
 10. ```key``` is similar to ```id```.
 11. Rewrite React code without using JSX at all:
 ```var h1 = <h1>Hello world</h1>;```
-```
+```javascript
 var h1 = React.createElement(
   "h1",
   null,
@@ -49,7 +49,7 @@ components. If you have a component class, then you can use that class to produc
 as you want: ```React.createClass();```
 2. To store the result of React.createClass(); in a variable: ```MyComponentClass = React.createClass();```
 3. How to render / return a JSX function
-```
+```javascript
 var componentBlueprint = {
   render: function () {
     return <h1>Hello world</h1>;
@@ -57,7 +57,7 @@ var componentBlueprint = {
 };
 ```
 4. Creating an instance: ```<MyComponentClass />``` (You put this below your variables.)
-```
+```javascript
 ReactDOM.render(
   <MyComponentClass />,
   document.getElementById('app')
