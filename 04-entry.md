@@ -2,7 +2,7 @@
 
 ## Notes On What I Learned
 ### Components and Advanced JSX
-1. Making a React component that renders this HTML with Quotemaker:
+1. This makes HTML appear in ReactJS code. Making a React component that renders HTML with Quotemaker:
 ```javascript
 var QuoteMaker = React.createClass({
   render: function () {
@@ -102,7 +102,6 @@ var Button = React.createClass({
   }
 });
 ```
-##Takeaways
-*Always render the code after you've finished. Throughout the lesson, there were times when I forgot 
+## Takeaways 
+* Always render the code after you've finished. Throughout the lesson, there were times when I forgot 
 to render which created an error.
-*
