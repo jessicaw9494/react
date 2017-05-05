@@ -1,4 +1,4 @@
-# Entry 5: Compnents Interacting
+# Entry 5: Components Interacting
 
 ## Notes On What I learned
 ### Components Render Other Components
@@ -63,9 +63,7 @@ the component.
     - Put ```<Greeting name="daphne" />``` inside of Apps.js's return function
 As long as the information is opposing each file and the var-require is linked, then you can pass a prop!
 5. Using props to make a decision: This can be done through making true/false methods. For ex.:
-```
- <Greeting name="Alison" signedIn={true} />
-```
+```<Greeting name="Alison" signedIn={true} />```
 This code is inside Apps.js and when signedIn = false, then the screen will pop up a different response.
 6. To pass an event handler function as a prop:
     - make ```var Talker = React.createClass({     });``` cover your entire code
@@ -75,13 +73,15 @@ This code is inside Apps.js and when signedIn = false, then the screen will pop 
 8. A button with an attribute (```<button onClick = {this.props.talk}>```) can transfer the informaiton
 from the talk file to the screen with a click of a button. I thought this is very neat and organizing 
 and it is different from regular javascript where we have to put in all the information into the button.
-9. 
+
+### this.state
+
 
 ## Takeaways
 * Some of the Codecademy work was difficult to work with, but luckily the program allows me to see the answer when
 I get multiple lines of error. For instance, in step 6 of my Components Interacting unit, I found out that copying 
 the old code and right code and viewing them side by side to be helpful.
-```
+```javascript
 function talk () {
   for (var speech = '', i = 0; i < 10000; i++) {
     speech += 'blah ';
@@ -96,7 +96,7 @@ var Talker = React.createClass({
 });
 ---------------------------
 var Talker = React.createClass({
-  talk: function () {
+  talk: function () {   //the difference
     for (var speech = '', i = 0; i < 10000; i++) {
       speech += 'blah ';
     }
@@ -110,3 +110,6 @@ var Talker = React.createClass({
 ```
 * Since I've finished Codecademy right now, my next steps is to start my layout for my project. I will
 start out simple with JSX that I learned during the beginning of the Codecademy.
+
+
+https://www.coderfactoryacademy.edu.au/posts/how-you-can-build-facebook-messenger-chat-app-with-reactjs

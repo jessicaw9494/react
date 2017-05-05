@@ -5,3 +5,4 @@
 * [Entry 3](03-entry.md)
 * [Entry 4](04-entry.md)
 * [Entry 5](05-entry.md)
+* [Entry 6](06-entry.md)
