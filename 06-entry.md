@@ -8,7 +8,9 @@ When starting with React, I needed to scan a QR code to preview my code.
 I read [Repl Blog](https://repl.it/site/blog/react_native) and 
 [Making ReactJS without QR code](https://www.npmjs.com/package/qrcode.react) as reference to getting started.
 Since it's inconvienent to scan a QR code everytime I run, I tried to look for a method in which I could 
-preview online. 
+preview online. However, since I want my game to be an atual app, I thought it would be better to use the QR code
+which would be easy reference and automatic app. Furthermore, the transfer from code that is online to phone may
+cause bugs.
 
 <iframe src='https://gfycat.com/ifr/PepperyIllfatedGerbil' frameborder='0' scrolling='no' width='640' height='360' allowfullscreen></iframe>
 
@@ -29,5 +31,15 @@ render() { //run
   }
 }
 ```
+<img src="http://i.imgur.com/nwETCvV.png" style="width: 300px;" />
 
-Probably the most challenging part of the app is to make it interactive. 
+Probably the most challenging part of the app is to make it interactive. Here's my plan:
+* Make the tennis ball appear randomly. I plan on referring to this game, [Reactoroids](https://react.rocks/example/Reacteroids),
+that makes different shapes of rocks appear at a random place.
+* Make a default tennis ball on the top side of the screen. When the bouncing tennis ball touches it, it will then
+move to a random location.
+* Make a background image.
+
+## Takeaways
+* I think referring to different codes seem to be the best way for me to learn. I will avoid plagiarism though through
+writing comments to show my understanding of the code and, tweaking the code to fit my app.
