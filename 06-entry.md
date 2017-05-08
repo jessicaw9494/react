@@ -32,7 +32,7 @@ render() { //run
   }
 }
 ```
-<img src="http://i.imgur.com/nwETCvV.png" style="width: 300px;" />
+<img src="http://i.imgur.com/nwETCvV.png" width="200" height="400" />
 
 Probably the most challenging part of the app is to make it interactive. Here's my plan:
 * Make the tennis ball appear randomly. I plan on referring to this game, [Reactoroids](https://react.rocks/example/Reacteroids),
