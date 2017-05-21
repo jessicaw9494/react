@@ -10,12 +10,16 @@ appearing, but I only want there to be one sentence with the number changing. I 
 ```javascript
 onPress = () => {
     let hit = [ ...this.state.hit ];
-    hit.push(`You've scored ${this.state.hit.length} times!`)
+    hit.push(`You've scored ${this.state.hit.length} times!`) //assuming this is the problem
     this.setState({ hit });
   }
 ```
 I realized that ```.push``` is making this code repeat, because when I removed it and changed it to .state,
-the code does not appear on my screen anymore, but on the console.log.
+the code does not appear on my screen anymore, but on the console.log. Also, I checked on w3schools and .push repeats
+the statement.
+
+I started out by changing the numbers to appear in orderly. So I used the .unshift method which will bring the greater
+number appear first. 
 
 ### Problem(s)
 - [ ] I need to figure out how to make my scorekeeper consistent.
@@ -27,7 +31,10 @@ I will change the image frames to once image: a tennis racket with a ball.
 ## Takeaways
 I am planning on using an if/else statement where the image will change once I click onPress as my final project.
 I found that my original plan of having a ball bouncing in different directions to be too much. I will have
-the simple steps of 
+the simple steps of changing the image once I press the button while keeping track.
 
-### Problem(s)
+So far, I have got my MVP ready as I can keep score. I think that breaking down the code and finding the part
+of the code is what helped me finish.
+
+### Goal
 - [ ] I need to have my images change once I press the button.

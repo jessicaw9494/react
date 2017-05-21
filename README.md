@@ -7,3 +7,4 @@
 * [Entry 5](05-entry.md)
 * [Entry 6](06-entry.md)
 * [Entry 7](07-entry.md)
+* [Entry 8](08-entry.md)
