@@ -8,3 +8,6 @@
 * [Entry 6](06-entry.md)
 * [Entry 7](07-entry.md)
 * [Entry 8](08-entry.md)
+
+[Presentation Link](https://docs.google.com/presentation/d/12nudTa7YZs2Xqx-CuXcuWA38jWl5zPm6n7bBr_bMLqI/edit#slide=id.gc6f9e2caa_0_0)
+[Product Link](https://repl.it/He7W/9)
